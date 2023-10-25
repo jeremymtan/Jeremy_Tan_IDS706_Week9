@@ -1,15 +1,15 @@
-[![Install](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/install.yml)
-[![Format](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/format.yml)
-[![Lint](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/actions/workflows/test.yml)
-## Project #1: Continuous Integration using GitHub Actions of Python Data Science
+[![Install](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/install.yml/badge.svg)](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/install.yml)
+[![Format](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/format.yml/badge.svg)](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/format.yml)
+[![Lint](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/lint.yml/badge.svg)](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/lint.yml)
+[![Test](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/test.yml/badge.svg)](https://github.com/jeremymtan/Jeremy_Tan_IDS706_Week9/actions/workflows/test.yml)
+## Cloud-Hosted Notebook Data Manipulation
 
-## Youtube Video Link
-[Youtube Link](https://www.youtube.com/watch?v=rPrHaqKwjWI)
+## Google Collab Link
+[Google Collab Link](https://colab.research.google.com/github/jeremymtan/Jeremy_Tan_IDS706_Week9/blob/main/main.ipynbI)
 
 ### Directory Tree Structure 
 ```
-Jeremy_Tan_IDS706_Week3_Individual/
+Jeremy_Tan_IDS706_Week9_Individual/
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -36,7 +36,7 @@ Jeremy_Tan_IDS706_Week3_Individual/
 └── test_main.py
 ```
 ### Purpose of Project
-The purpose of this project is to build upon the last three mini-projects to simulate best practices of continuous integration in Data Science projects. I use the Congress dataset provided by FiveThirtyEight to produce sample descriptive statistics and visualizations.
+TThe project's purpose is to demonstrate proficiency in setting up and utilizing a cloud-hosted Jupyter Notebook environment, specifically using Google Colab. This includes performing data manipulation tasks on a provided sample dataset. 
 
 ## Preparation 
 1. Open codespaces 
@@ -46,12 +46,6 @@ The purpose of this project is to build upon the last three mini-projects to sim
 ## Check format and test errors
 1. Format code `make format`
 2. Lint code `make lint`
-
-<img width="828" alt="Screenshot 2023-09-20 at 8 28 38 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/assets/36715338/78b644b0-12e4-48df-9026-5676e2f00111">
-
-3. Test code `make test`
-
-<img width="1374" alt="Screenshot 2023-09-20 at 8 28 51 PM" src="https://github.com/nogibjj/Jeremy_Tan_IDS706_Week3_Individual/assets/36715338/8f7c73fe-bf4c-47ae-80f1-c32ce35a9465">
 
 ## Descriptive statistics and vizualizations 
 The descriptive statistics and vizualizations are generated whenever an individaul pushes to my repository via `actions-user` using `make generate_and_push`. You can find them here [descriptive statistics and vizualizations](/congress_summary.md)
