@@ -5,7 +5,7 @@
 ## Cloud-Hosted Notebook Data Manipulation
 
 ## Google Collab Link
-[Google Collab Link](https://colab.research.google.com/github/jeremymtan/Jeremy_Tan_IDS706_Week9/blob/main/main.ipynbI)
+[Google Collab Link](https://colab.research.google.com/github/jeremymtan/Jeremy_Tan_IDS706_Week9/blob/main/main.ipynb)
 
 ### Directory Tree Structure 
 ```
