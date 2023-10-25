@@ -9,7 +9,7 @@
 
 ### Directory Tree Structure 
 ```
-Jeremy_Tan_IDS706_Week9_Individual/
+Jeremy_Tan_IDS706_Week9
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   └── Dockerfile
