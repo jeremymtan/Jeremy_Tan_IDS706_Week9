@@ -47,8 +47,5 @@ TThe project's purpose is to demonstrate proficiency in setting up and utilizing
 1. Format code `make format`
 2. Lint code `make lint`
 
-## Descriptive statistics and vizualizations 
-The descriptive statistics and vizualizations are generated whenever an individaul pushes to my repository via `actions-user` using `make generate_and_push`. You can find them here [descriptive statistics and vizualizations](/congress_summary.md)
-
 ## References 
 https://github.com/nogibjj/python-ruff-template
